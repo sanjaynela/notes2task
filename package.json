@@ -1,0 +1,24 @@
+{
+  "name": "notes2task",
+  "version": "1.0.0",
+  "description": "Extract tasks from a Markdown note and export as JSON",
+  "main": "src/index.js",
+  "scripts": {
+    "notes2task": "node src/index.js"
+  },
+  "keywords": [
+    "markdown",
+    "tasks",
+    "cli",
+    "todo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "type": "commonjs"
+}
